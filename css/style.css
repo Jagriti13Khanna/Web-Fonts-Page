@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@800&family=EB+Garamond:wght@800&family=Lato:wght@900&family=Libre+Baskerville:wght@700&family=Lilita+One&family=Nunito+Sans&family=Oswald&family=Playfair+Display&family=Source+Sans+Pro&family=Space+Mono&display=swap');
+
+.container {
+	width: 1280px;
+	background: #faf2db;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 100%;
+}
+
+header h1 {
+	font-size: 5rem;
+	font-weight: 600px;
+	border: 8px solid #1d2147;
+	color: #f05c2e;
+	padding: 40px 160px;
+	font-family: 'Potta One', cursive;
+	display:block;
+	line-height: 1.3;
+}
+
+.fables.first-color {
+	border-style: hidden hidden solid solid;
+	border-width: 5px;
+	border-color: #f05c2e;
+	padding: 20px;
+	margin: 40px 0px;
+	display: flex;
+	flex-wrap: row;
+}
+
+.fables.first-color h2 {
+	width: 300px;
+	color:#f05c2e;
+	font-size: 4rem;
+	font-weight: 500;
+	padding: 10px 60px 20px 60px;
+	text-align: center;
+	line-height: 1.1;
+}
+
+.story {
+	width: 750px;
+	padding: 30px auto;
+}
+
+.story.border {
+	border-right: 2px solid #f05c2e;
+	padding-bottom: 40px;
+}
+
+.fables.first-color p {
+	color:#1d2147;
+	font-size: 1.2rem;
+	text-align: left;
+	padding: 10px 60px 30px 60px;
+	border-left: 2px solid #1d2147;
+	line-height: 1.5;
+}
+
+
+.fables.second-color {
+	border-style: hidden solid solid hidden;
+	border-width: 5px;
+	border-color: #1d2147;
+	padding: 20px;
+	margin: 40px 0px;
+	display: flex;
+	flex-wrap: row;
+}
+
+.fables.second-color h2 {
+	width: 300px;
+	color: #1d2147;
+	font-size: 4rem;
+	font-weight: 500;
+	padding: 55px 50px 20px 90px;
+	text-align: center;
+	line-height: 1.1;
+}
+
+.fables.second-color p {
+	color:#f05c2e;
+	font-size: 1.2rem;
+	margin: 20px 30px;
+	text-align: left;
+	padding: 10px 30px 30px 60px;
+	line-height: 1.5;
+	letter-spacing: .2rem;
+}
+
+.fables.first-color.font1 h2 {
+	font-family: 'Lilita One', cursive;
+	font-weight: 400;
+	padding-top: 55px;
+}
+
+.fables.first-color.font1 p {
+	font-family: 'Playfair Display', serif;
+}
+
+.fables.first-color.font3 h2 {
+	font-family: 'BioRhyme', serif;
+	font-weight: 800;
+	padding-top: 75px;
+}
+
+.fables.first-color.font3 p {
+	font-family: 'Space Mono', monospace;
+}
+
+.fables.second-color.font2 h2 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 900;
+	padding-top: 215px;
+}
+
+.fables.second-color.font2 p {
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+.fables.second-color.font4 h2 {
+	font-family: 'Libre Baskerville', serif;
+	font-weight: 700;
+	font-size: 3.5rem;
+	padding-top: 90px;
+}
+
+.fables.second-color.font4 p {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+
+
+
